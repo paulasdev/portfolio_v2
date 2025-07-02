@@ -260,6 +260,9 @@ section {
 }
 
 .details-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
   padding: 1.5rem;
   flex: 1;
   background: white;
@@ -433,6 +436,23 @@ footer p {
   .experience-details-container {
     margin-top: 2rem;
   }
+  .section-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-details-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-container {
+    margin-top: 1rem;
+    padding: 0 1rem;
+    text-align: justify;
+  }
+
   #profile,
   .section-container {
     display: block;
